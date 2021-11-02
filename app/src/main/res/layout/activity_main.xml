@@ -40,5 +40,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="복사될 자리"/>
+    <Button
+        android:id="@+id/btnContentToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문장을 토스트로 띄우기"/>
 
 </LinearLayout>

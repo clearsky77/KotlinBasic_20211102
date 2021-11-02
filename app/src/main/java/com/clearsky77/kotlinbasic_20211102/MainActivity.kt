@@ -31,6 +31,12 @@ class MainActivity : AppCompatActivity() {
 //            2. 알아낸 텍스트를 복사해서 세팅하기
             txtCopyResult.text = inputContent
         }
+
+        btnContentToast.setOnClickListener {
+            val inputContent = edtContent.text.toString()
+            Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
+        }
+
     }
 
 }
