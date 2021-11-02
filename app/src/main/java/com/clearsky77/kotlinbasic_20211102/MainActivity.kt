@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         btnToast2.setOnClickListener {
             Toast.makeText(this, "자리에서 일~어나서~♪", Toast.LENGTH_SHORT).show()
         }
+
     }
 
 }
