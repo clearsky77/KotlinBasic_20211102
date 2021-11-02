@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "자리에서 일~어나서~♪", Toast.LENGTH_SHORT).show()
         }
 
+        btnCopyText.setOnClickListener {
+//            1. 입력칸 내용 가져오기
+            val inputContent = edtContent.text.toString()
+//            2. 알아낸 텍스트를 복사해서 세팅하기
+            txtCopyResult.text = inputContent
+        }
     }
 
 }
